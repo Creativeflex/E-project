@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Close" transform="translate(-288 -37)">
+    <rect id="Rectangle_1707" data-name="Rectangle 1707" width="24" height="24" transform="translate(288 37)" fill="none"/>
+    <g id="Icon_Close_Filled" data-name="Icon / Close / Filled" transform="translate(291 40)">
+      <rect id="Box" transform="translate(0 0)" fill="none"/>
+      <path id="Path_954" data-name="Path 954" d="M18-12.2,16.2-14,9-6.8,1.8-14,0-12.2,7.2-5,0,2.2,1.8,4,9-3.2,16.2,4,18,2.2,10.8-5Z" transform="translate(0 14)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

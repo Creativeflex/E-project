@@ -49,6 +49,7 @@ nav ul li a {
     color: black;
     font-style: oblique;
     transition: 0.3s;
+    text-wrap-mode: nowrap;
 
 
 }

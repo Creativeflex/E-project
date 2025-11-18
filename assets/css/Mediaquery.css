@@ -717,6 +717,20 @@ select {
 }
 }
 
-/* @media screen and (max-width: 480px) { ... }
-@media screen and (max-width: 768px) { ... }
-@media screen and (min-width: 1024px) { ... } */
+/* @media screen and (max-width: 480px) {
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+}
+
+@media screen and (min-width: 1921px) {
+} */

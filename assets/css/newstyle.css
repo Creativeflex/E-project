@@ -367,7 +367,6 @@ nav ul li a:hover {
 }
 
 .footer-col {
-
     flex: 1;
     min-width: 200px;
     margin-bottom: 30px;
@@ -624,11 +623,11 @@ select {
     background-color: #e0e7ff;
 }
 
-.Quik-box{
+.Quik-box {
     padding: 0px 20px 0px 20px;
 }
 
-.info-section { 
+.info-section {
     display: flex;
     flex-direction: column;
     gap: 130px;
@@ -670,7 +669,47 @@ select {
     color: #555;
 }
 
-.service-section{
-    padding: 20px;
-    margin: 20px;
+.service{
+    padding-bottom: 50px;
+}
+
+.c1 {
+    padding: 15px;
+}
+
+.Service-head {
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.Service-head:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.Service-head h2 {
+    color: rgb(54, 53, 53);
+}
+
+.Service-head a{
+    text-decoration: none;  
+    color: black;
+    font-size: 15px;
+}
+
+.about-section{
+    padding: 60px;
+}
+
+.about-section h1{
+    text-align: center;
+    color: rgb(54, 53, 53);
+}
+
+.about-section P{
+    color: #666;
 }

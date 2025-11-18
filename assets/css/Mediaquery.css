@@ -13,6 +13,7 @@
 
 .row {
     display: flex;
+    flex-direction: row;
 }
 
 .col {
@@ -715,3 +716,7 @@ select {
     color: #666;
 }
 }
+
+/* @media screen and (max-width: 480px) { ... }
+@media screen and (max-width: 768px) { ... }
+@media screen and (min-width: 1024px) { ... } */

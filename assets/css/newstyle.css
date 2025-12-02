@@ -18,6 +18,13 @@ body {
     flex: 1;
 }
 
+.c1 {
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 /* system end */
 
 .logo-img img {
@@ -38,7 +45,6 @@ nav ul {
     margin: 0;
     display: flex;
     gap: 30px;
-    /* justify-content: center; */
 }
 
 nav ul li {
@@ -669,7 +675,7 @@ select {
     color: #555;
 }
 
-.service{
+.service {
     padding-bottom: 50px;
 }
 
@@ -695,21 +701,87 @@ select {
     color: rgb(54, 53, 53);
 }
 
-.Service-head a{
-    text-decoration: none;  
+.Service-head a {
+    text-decoration: none;
     color: black;
     font-size: 15px;
 }
 
-.about-section{
+.about-section {
     padding: 60px;
 }
 
-.about-section h1{
+.about-section h1 {
     text-align: center;
     color: rgb(54, 53, 53);
 }
 
-.about-section P{
+.about-section P {
+    color: #666;
+}
+
+.main-about {
+    padding: 30px;
+}
+
+.main-about h1 {
+    text-align: center;
+}
+
+.about-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.heading-about h3 {
+    color: rgb(54, 53, 53);
+    font-size: x-large;
+}
+
+.paragraph-about p {
+    color: #666;
+}
+
+.core-value {
+    padding: 30px;
+}
+
+.core-value h1 {
+    text-align: center;
+    color: rgb(54, 53, 53);
+}
+
+.core-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.core-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.main-manu{
+    padding: 30px 30px 0px 30px;
+    color: rgb(54, 53, 53);
+}
+
+.main-man{
+    padding: 0px 30px 30px 30px;
     color: #666;
 }

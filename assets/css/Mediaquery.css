@@ -39,6 +39,7 @@
         padding: 0;
         margin: 0;
         display: flex;
+        flex-direction: row;
         gap: 30px;
         /* justify-content: center; */
     }
@@ -141,6 +142,7 @@
 
     .cards-container {
         display: flex;
+        flex-direction: row;
         gap: 30px;
         justify-content: center;
         flex-wrap: wrap;
@@ -168,6 +170,7 @@
         width: 40px;
         height: 40px;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         border-radius: 8px;
@@ -264,6 +267,7 @@
     .btnnew {
         display: flex;
         justify-content: center;
+        flex-direction: row;
     }
 
     .product-btn {
@@ -303,6 +307,7 @@
 
     .testimonials-row {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         padding: 30px;
     }
@@ -314,7 +319,7 @@
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
 
@@ -363,6 +368,7 @@
 
     .footer-grid {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 40px;
@@ -382,6 +388,7 @@
 
     .footer-logo {
         display: flex;
+        flex-direction: row;
         align-items: center;
         margin-bottom: 20px;
     }
@@ -449,6 +456,7 @@
     .footer-col ul li {
         margin-bottom: 12px;
         display: flex;
+        flex-direction: row;
         align-items: flex-start;
     }
 
@@ -485,8 +493,8 @@
     }
 
     .product-heading {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .product-heading h1 {
@@ -631,7 +639,7 @@
 
     .info-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 130px;
     }
 
@@ -648,6 +656,7 @@
 
     .info-item {
         display: flex;
+        flex-direction: row;
         align-items: flex-start;
         margin-bottom: 15px;
         gap: 10px;
